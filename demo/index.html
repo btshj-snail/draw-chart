@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      #svg {
+        width: 500px;
+        height: 400px;
+        border: solid 1px red;
+      }
+    </style>
+  </head>
+  <body>
+    <svg id="svg"></svg>
+    <script src="./snap.svg.js"></script>
+    <script>
+      var snap = new Snap('#svg');
+      console.log(snap);
+      var cicle = snap.paper.circle(100, 100, 50);
+      snap.paper.el('circle', {
+        cx: 300,
+        cy: 300,
+        r: 80,
+      });
+      // setTimeout(() => {
+      //   snap.paper.clear();
+      // }, 1000);
+    </script>
+  </body>
+</html>

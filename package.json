@@ -1,0 +1,39 @@
+{
+  "name": "draw-chart",
+  "version": "0.0.1",
+  "description": "svg 画图",
+  "main": "index.js",
+  "gitRepositry": "git@github.com:btshj-snail/draw-chart.git",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "svg",
+    "draw"
+  ],
+  "author": "snail",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-external-helpers": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-angular": "^8.3.4",
+    "@rollup/plugin-json": "^4.0.1",
+    "@rollup/plugin-typescript": "^2.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "conventional-changelog-cli": "^2.0.31",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.28.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "snapsvg": "^0.5.1"
+  }
+}
